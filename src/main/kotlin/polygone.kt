@@ -1,5 +1,8 @@
-class polygone(var vertices: Array<Point>) {
-    fun moveX(distance:Double){
+class polygone(var vertices: Array<Point>) 
+//многоугольник имеющий список вершин 
+{
+    fun moveX(distance:Double) // методы позволяющие перемешать вершины
+{
         for (point in vertices){
             point.moveX(distance)
         }
