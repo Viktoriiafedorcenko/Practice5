@@ -1,9 +1,9 @@
-open class Point( var x:Double, var y:Double) // базовы класс
+open class Point( var x:Double, var y:Double) // открыли  базовы класс с параметрами 
 {
     // свойства
     open fun moveX(distance:Double)//перемещение по оси х
     {
-        x+=distance
+        x+=distance //увеличили значение 
     }
 open fun moveY(distance: Double){
     y+=distance
